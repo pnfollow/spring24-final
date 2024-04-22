@@ -1,0 +1,116 @@
+@charset "utf-8";
+.links {
+  background-color: black;
+  color: wheat;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.content {
+  background-color: black;
+  color: wheat;
+	border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	
+		
+}
+		.myOL {
+  background-color: black;
+  color: wheat;
+	border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+	display: inline-block;
+			text-align: center
+	
+		
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+.list {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+		 
+		#myHeader {
+  background-color: black;
+  color: wheat;
+  padding: 5px;
+  text-align: center;
+} 
+			h1{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h2{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h3{ 
+			font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+		p{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;}
+		li{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;}
+		h5{font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+	* {
+  box-sizing: border-box;
+}
+.links {
+  overflow: hidden;
+  background-color: #212131;
+}
+
+.links a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-color: #49496C;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+	.links {
+    float: none;
+    width: 100%;
+  }
+}
